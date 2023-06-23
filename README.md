@@ -21,3 +21,9 @@ Docker run
 ```
 docker run -d -p 27017:27017 --volume mongodata:/data/db --name mongodb mongo:4.2.5
 ```
+
+### RabbitMQ
+Docker run
+```
+docker run -d --name my-rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+```
